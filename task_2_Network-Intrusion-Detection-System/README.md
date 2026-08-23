@@ -1,4 +1,4 @@
-# Task 4 — Network Intrusion Detection System 🛡️
+# Task 2 — Network Intrusion Detection System 🛡️
 
 Part of the **CodSoft Cyber Security Virtual Internship**. A functional Network
 Intrusion Detection System built with Suricata, tested against real attack
@@ -129,6 +129,24 @@ Suricata alert — searchable by timestamp, signature, and source/destination
 IP, without needing a full ELK stack.
 
 ![EveBox dashboard](images/evebox-dashboard.png)
+
+### Running the Dashboard Locally
+
+EveBox isn't a background service by default — it's launched on demand,
+pointed at Suricata's alert log:
+
+```bash
+# Install (Linux, no root required)
+curl -sSf https://evebox.org/install.sh | sh
+
+# Launch it against your Suricata alert log
+evebox oneshot /var/log/suricata/eve.json
+```
+
+This starts a local web server and prints the address it's listening on
+(typically `http://0.0.0.0:5636`). Open that in a browser — replace `0.0.0.0`
+with `127.0.0.1` if it doesn't load directly — to see the same alert table
+shown above, live-updating as Suricata generates new alerts.
 
 ## 🧠 Key Learnings & Challenges
 
