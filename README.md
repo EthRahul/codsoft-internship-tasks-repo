@@ -6,26 +6,25 @@ Welcome to my **CodSoft Cybersecurity Internship** project repository! This repo
 
 ## 📁 Repository Structure
 
-codsoft-internship-tasks-repo/
-│
-├── README.md # Main repository documentation
-├── task_1_packet_analyzer/ # Task 1: Network Packet Analyzer
-│ ├── analyzer.py # Packet capture, parsing & colorizing logic
-│ ├── main.py # CLI entry point & privilege verification
-│ ├── requirements.txt # Python dependencies (scapy, colorama)
-│ └── README.md # Detailed task documentation & usage guide
-├── task_2_Network-Intrusion-Detection-System/ # Task 2: Network Intrusion Detection System
-│ ├── README.md # Detailed task documentation & usage guide
-│ ├── rules/local.rules # Custom Suricata detection rule
-│ ├── scripts/alert_responder.sh # Automated alert response script
-│ └── images/ # Setup, attack, and dashboard screenshots
-└── task_3_Secure-Code-Assessment/ # Task 3: Secure Code Assessment
-├── README.md # Detailed task documentation & usage guide
-├── report/ # Findings report & recon notes
-├── scans/ # Raw Bandit scan output
-├── fixes/ # Remediated code for critical findings
-└── images/ # Scan proof screenshots
-
+    codsoft-internship-tasks-repo/
+    │
+    ├── README.md                                    # Main repository documentation
+    ├── task_1_packet_analyzer/                      # Task 1: Network Packet Analyzer
+    │   ├── analyzer.py                               # Packet capture, parsing & colorizing logic
+    │   ├── main.py                                   # CLI entry point & privilege verification
+    │   ├── requirements.txt                          # Python dependencies (scapy, colorama)
+    │   └── README.md                                 # Detailed task documentation & usage guide
+    ├── task_2_Network-Intrusion-Detection-System/    # Task 2: Network Intrusion Detection System
+    │   ├── README.md                                 # Detailed task documentation & usage guide
+    │   ├── rules/local.rules                         # Custom Suricata detection rule
+    │   ├── scripts/alert_responder.sh                # Automated alert response script
+    │   └── images/                                   # Setup, attack, and dashboard screenshots
+    └── task_3_Secure-Code-Assessment/                # Task 3: Secure Code Assessment
+        ├── README.md                                 # Detailed task documentation & usage guide
+        ├── report/                                   # Findings report & recon notes
+        ├── scans/                                    # Raw Bandit scan output
+        ├── fixes/                                    # Remediated code for critical findings
+        └── images/                                   # Scan proof screenshots
 
 ---
 
