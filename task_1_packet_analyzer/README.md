@@ -146,3 +146,10 @@ This packet analyzer is created exclusively for **educational, defensive cyberse
 
 1. **Consent Required:** Always ensure you have explicit authorization from the network owner before monitoring or analyzing network traffic.
 2. **Privacy Notice:** Intercepting sensitive packet data without consent is illegal under cyber law frameworks worldwide.
+
+---
+
+## 👤 Author
+
+**Rahul Sunouri** — B.Tech CSE, Cyber Security Virtual Intern @ CodSoft
+GitHub: [@EthRahul](https://github.com/EthRahul)

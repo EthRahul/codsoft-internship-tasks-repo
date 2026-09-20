@@ -85,15 +85,24 @@ Parameterized queries ensure user input is always treated as data, never executa
 
 ## 📁 Repository Structure
 
+```text
 task_3_Secure-Code-Assessment/
 ├── README.md
-├── target-app/vulpy/
-├── scans/
 ├── report/
-│ ├── recon-notes.md
-│ └── SECURE-CODE-ASSESSMENT-REPORT.md
+│   ├── recon-notes.md                      # Manual attack-surface tracing notes
+│   └── SECURE-CODE-ASSESSMENT-REPORT.md    # Full 12-finding assessment report
+├── scans/
+│   └── bandit-report.txt                   # Raw Bandit static analysis output
 ├── fixes/
-└── images/
+│   ├── libuser.py                          # F04 — parameterized queries (SQLi)
+│   ├── libsession.py                       # F06 — signed session cookies
+│   ├── mod_api.py                          # F12 — identity spoofing fix
+│   └── vulpy.py                            # F02 — debug mode / config fix
+└── images/                                 # Scan and recon proof screenshots
+```
+
+> **Note:** The target application (Vulpy) is not vendored into this repository — clone it
+> separately from [fportantier/vulpy](https://github.com/fportantier/vulpy) to reproduce the scan.
 
 
 ## ✅ Skills Demonstrated
